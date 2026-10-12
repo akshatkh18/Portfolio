@@ -97,7 +97,7 @@ export type Project = {
   /** Public URL of the deployed project. */
   live?: string;
   palette: Palette;
-  motif: 'brain' | 'chart' | 'flow';
+  motif: 'brain' | 'chart' | 'flow' | 'tenants' | 'shield';
 };
 
 export const projects: Project[] = [
